@@ -15,23 +15,50 @@ h3{
 .wrapper{
     background-color: #ffff;
 }
-.text h2{
-    font-size: 22px;
-    line-height: 3.1em;
-}
+
 body{
     font-family:"Arial";
 }
-body{
+body{   
     background-color: #8dc63f
-    
+}
+
+.text h2{
+    font-size: 22px;
+    line-height: 3.1em;
+
+}    
+.text i{
+    color: #5a5a5a;
+}
+.hours{
+    font-size: 14px;
+    line-height: 2,6em;
+    color: #5a5a5a;
+}
+.phone{
+    font-size: 22px;
+    line-height: 3.1em;
+    color: #39930d;
 }
 .links h3,footer{
     background-color: #39930d;
+}
+.main_text p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
 }
 footer p {
     font-size: 14px;
     line-height: 2.6em;
     color: #fff;
 
+}
+.links2  a{
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
 }
