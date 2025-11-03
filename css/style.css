@@ -1,10 +1,37 @@
+h1 ,h2 {
+    color: #39930d;
+}
+h1{
+    font-size: 44px;
+    line-height: 6.3em;
+    font-weight: bold;
+}
+h3{
+    color: #fff;
+    font-size: 18px;
+    line-height: 2.6em;
+
+}
 .wrapper{
     background-color: #ffff;
 }
+.text h2{
+    font-size: 22px;
+    line-height: 3.1em;
+}
+body{
+    font-family:"Arial";
+}
 body{
     background-color: #8dc63f
+    
 }
 .links h3,footer{
     background-color: #39930d;
 }
+footer p {
+    font-size: 14px;
+    line-height: 2.6em;
+    color: #fff;
 
+}
