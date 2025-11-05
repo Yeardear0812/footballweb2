@@ -1,15 +1,15 @@
-h1 ,h2 {
+h1 ,b {
     color: #39930d;
 }
+b
 h1{
     font-size: 44px;
-    line-height: 7px;
+    
     font-weight: bold;
 }
 h3{
     color: #fff;
     font-size: 18px;
-    line-height: 7px;
 
 }
 .wrapper{
@@ -25,19 +25,19 @@ body{
 
 .text h2{
     font-size: 22px;
-    line-height: 7px;    
+   
 }    
 .text i{
     color: #5a5a5a;
 }
 .phone{
     font-size: 22px;
-    line-height: 7px;    
+   
     color: #39930d;
 }
 .hours{
     font-size: 14px;
-    line-height: 7px;
+
     color: #5a5a5a;
 }
 
@@ -51,7 +51,6 @@ body{
 }
 footer p {
     font-size: 14px;
-    line-height: 7px;
     color: #fff;
 
 }
