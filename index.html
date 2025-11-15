@@ -10,19 +10,22 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo">
-                <div class="text">
+        <header class="flex">
+            <div class="logo flex">
+                <div class="text ">
                     <p>
                         Футбольний
                         <b>Менеджер</b>
                         <i>Офіційний сайт </i>
                     </p>
                 </div>
-                    <picture>
+
+                <div>
+                    <picture class="ball">
                         <source srcset="img/ball.webp" type="image/webp">
                         <img src="img/ball.svg" alt="М'яч">
                     </picture>
+                </div>
             </div>
 
             <div class="contact">
@@ -32,11 +35,11 @@
         </header>
         <main>
 
-            <picture>
+            <picture class="main_picture">
                 <img src="img/picture.png" alt="">
             </picture>
-            <div>
-                <section class="main_text">
+            <section class="main_text2 flex">
+                <div class="main_text">
                     <h1>Про футбол</h1>
                     <p>Командний вид спорту, який грається між двома командами по одинадцяти гравців зі
                         сферичним м'ячем. Близько 250 мільйонів чоловіків і жінок із більш ніж 200 країн грають у
@@ -51,11 +54,10 @@
                     <p>Або при вкиданні м'яча. Інші гравці в основному використовують свої ноги, щоб нанести
                         удар або передати м'яч, але можуть також використовувати голову і тулуб
                     </p>
-                </section>
-
+                </div>
                 <aside class="links">
                     <h3>Футбольні партнери</h3>
-                    <nav class="links2">
+                    <nav class="links2 ">
                         <ul>
                             <li><a href="#" class="news">новини</a></li>
                             <li><a href="#" class="match">Парі матч</a></li>
@@ -65,10 +67,11 @@
                         </ul>
                     </nav>
                 </aside>
-            </div>
+            </section>
+
         </main>
         <footer>
-            <p>© Футбольний менеджер 2018.</p>
+            <p class="footer">© Футбольний менеджер 2018.</p>
         </footer>
     </div>
 </body>
