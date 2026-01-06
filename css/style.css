@@ -6,16 +6,21 @@
 h1 ,b {
     color: #39930d;
 }
-
+html{
+    font-size:0.83px;
+}
+header{
+    flex-wrap: wrap;
+}
 h1{
-    font-size: 24px;
-    padding-bottom: 17px;
+    font-size: 24rem;
+    padding-bottom: 17rem;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 24rem;
 }
 h3{
     color: #fff;
-    font-size: 18px;
+    font-size: 18rem;
 
 }
 ul{
@@ -35,13 +40,13 @@ ul{
 }
 .logo{
     align-items: center;
-    gap: 34px;
+    gap: 34rem;
 }
 .wrapper{
     background-color: #fff;
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15rem;
 }
 
 body{
@@ -51,7 +56,7 @@ body{
    
 
 header{
-    padding: 25px 0;
+    padding: 25rem 0;
 }
 
 .text{
@@ -59,79 +64,118 @@ header{
     flex-direction: column;
 }
 .text p{
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
 }    
 .text i{
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
 }
 .text b {
-    font-size: 44px;
+    font-size: 44rem;
     display: block;
 }
 header{
-
-    padding: 25px, 0;
+    gap: 10rem;
+    padding: 25rem, 0;
 }
 
 .phone{
-    font-size: 22px;
-    text-align: right;
+    font-size: 22rem;
     color: #39930d;
 }
 .hours{
-    font-size: 14px;
-    text-align: right;
+    font-size: 14rem;
+    text-align: left;
     color: #5a5a5a;
 }
 .links{
-    min-width: 300px;
+    width: 100%;
+    min-width: 200px;
+    margin-bottom: 20px;
 }
 
 .links h3,footer{
     background-color: #39930d;
 }
 .links h3{
-    padding: 11px 19px;
+    padding: 11rem 19rem;
 
 }
 .links2 ul{
-    padding: 20px;
+    padding: 20rem;
 }
 footer{
-    padding: 14px 15px;
-    margin: 0 -15px;
+    padding: 14rem 15rem;
+    margin: 0 -15rem;
 }
 .main_text2{
-    padding: 25px 0 29px ;
+    flex-wrap: wrap-reverse;
+    padding: 25rem 0 29rem ;
+    column-gap: 20px;
 }
 
 .main_text p{
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
-    margin-bottom: 18px;
+    margin-bottom: 18rem;
 }
 .main_picture{
     display: inline-block;
-    padding: 25px, 0px;
+    padding: 25rem, 0px;
+}
+.main_picture img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 75%;
+    min-height: 200px;
 }
 .main_text{
-    max-width: 594px;
+    max-width: 594rem;
 }
 
 footer p {
 
-    font-size: 14px;
+    font-size: 14rem;
     color: #fff;
 
 }
 .links2  a{
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
     
 }
+@media screen and (min-width: 512px) {
+    .hours{
+        text-align: right;
+    }
+    
+}
+@media screen and (min-width: 768px){
+    html{
+        font-size: 0.9px;
+    }
+ 
+    .menu{
+        margin-bottom:  0;
+    }
+    .main_text2{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 1440px){
+    html{
+        font-size: 1px;
+    }
+}
+@media screen and (min-width: 1920px){
+    html{
+        font-size: 1.2px;
+    }
+
+}
+
