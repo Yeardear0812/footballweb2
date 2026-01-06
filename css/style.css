@@ -124,6 +124,7 @@ footer{
 .main_picture{
     display: inline-block;
     padding: 25rem, 0px;
+    width: 100%gi;
 }
 .main_picture img{
     width: 100%;
